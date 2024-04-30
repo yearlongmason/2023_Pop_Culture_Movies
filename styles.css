@@ -25,8 +25,9 @@ a
     text-align: center;
 }
 
-#mainContent
+.mainContent
 {
+    width: 100%;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -45,7 +46,7 @@ a
 {
     font-size: 125%;
     font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
+    text-align: left;
 }
 
 .movieDiv
@@ -80,4 +81,28 @@ a
 {
     cursor: pointer;
     text-shadow: 1px 1px 3px grey;
+}
+
+.navDiv
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+table, th, td
+{
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table
+{
+    table-layout: fixed;
+}
+.awardTable
+{
+    font-size: 125%;
+    font-family:Arial, Helvetica, sans-serif;
 }
